@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "NodeJS as Image",
+  "author": "Daniël Geerts",
+  "main": "app.js",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.1.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  }
+}

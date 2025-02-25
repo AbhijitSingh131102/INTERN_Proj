@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  node-app:
+    build:
+      context: ./app
+    image: icr.io/ibm-daniels-workspace/cicd-casestudy-app:latest
+    ports:
+      - 80:3000
